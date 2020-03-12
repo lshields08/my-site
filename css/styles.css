@@ -1,0 +1,143 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* 16px = 100% = 1em (% and em add on top of parent settings, px doesn't. rem also ignores, and uses same measurements as em.) */
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 7.5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+hr {
+    border-color: lightgray;
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+}
+
+/* 16px = 100% = 1em */
+
+.avatar {
+    height: 150px;
+    width: 125px;
+}
+
+.hockey-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.ballet-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.cloud1 {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.cloud2 {
+    position: absolute;
+    margin-left: 2%;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile {
+    width: 20%;
+    margin: 65px auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.my-skills-intro-txt {
+    margin-top: 65px;
+}
+
+.subtitle1 {
+    font-weight: normal;
+}
+
+.cr-txt {
+    color: white;
+    font-size: 0.85rem;
+}
+
+.top-container {
+    background-color: #effcef;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.btn {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #66BFBF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.btn:hover {
+    background: #D7D7D7;
+    border: solid #D7D7D7 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
